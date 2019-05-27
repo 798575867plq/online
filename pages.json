@@ -18,5 +18,21 @@
 		"navigationBarTitleText": "uni-app",
 		"navigationBarBackgroundColor": "#F8F8F8",
 		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#333333",
+		"selectedColor": "#FFCB57",
+		"backgroundColor": "#FFFFFF",
+		"list": [{
+			"pagePath": "pages/home/home",
+			"iconPath": "static/home0.png",
+			"selectedIconPath": "static/home1.png",
+			"text": "商城"
+		}, {
+			"pagePath": "pages/tool/tool",
+			"iconPath": "static/study0.png",
+			"selectedIconPath": "static/study1.png",
+			"text": "社区"
+		}]
 	}
 }
