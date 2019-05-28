@@ -145,6 +145,15 @@
 				</view>
 			</view>
 		</view>
+		
+		<view class="floatRight">
+			<view class="me">
+				<i class="iconfont icon-wo"></i>
+			</view>
+			<view class="shopping">
+				<i class="iconfont icon-gouwuche"></i>
+			</view>
+		</view>
 	</view>
 </template>
 
@@ -461,5 +470,41 @@ swiper {
 	color: red;
 	border-radius: 10px;
 	padding: 4upx 12upx;
+}
+
+.floatRight{
+	position: fixed;
+	bottom: 120upx;
+	right:10upx;
+}
+
+.me{
+	background-color: #999;
+	width:40px;
+	height: 40px;
+	border-radius: 100%;
+	padding-top:10upx;
+}
+
+.me i{
+	font-size: 60upx;
+	color: #FFFFFF;
+	padding-left: 10upx;
+}
+
+.shopping{
+	background-color: #FBBD08;
+	width:40px;
+	height: 40px;
+	border-radius: 100%;
+	margin-top:10px;
+	padding-top:10upx;
+}
+
+.shopping i{
+	font-size: 60upx;
+	color: #FFFFFF;
+	padding-left: 10upx;
+	
 }
 </style>
